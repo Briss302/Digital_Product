@@ -1,0 +1,136 @@
+@media (max-width: 1023px) {
+  .product {
+    bottom: 240px;
+  }
+  .mention {
+    width: 200px;
+  }
+  .mention img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .products {
+    height: 100px;
+  }
+  .product {
+    bottom: 200px;
+  }
+  .recomendation {
+    grid-template-columns: repeat(2, 100px);
+    align-items: center;
+    gap: 5px;
+  }
+  .recomendation img {
+    width: 100px;
+    height: 100px;
+  }
+  .mention-title {
+    font-size: x-large;
+  }
+  .mention {
+    width: 150px;
+  }
+  .mention img {
+    width: 150px;
+    height: 150px;
+  }
+  .recomendation-section {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .main-section h1 {
+    font-size: 1.5em;
+  }
+  .product {
+    padding: 5px;
+    font-size: 11px;
+    bottom: 160px;
+  }
+  .product img {
+    width: 100px;
+  }
+  .main-button {
+    font-size: 11px;
+  }
+  .recomendation {
+    grid-template-columns: 130px;
+    grid-template-areas:
+      "recomendation-content"
+      "recomendation-img";
+    gap: 0;
+    justify-content: center;
+    padding: 5px;
+    font-size: 11px;
+  }
+  .recomendation-content h2 {
+    text-align: center;
+  }
+  .recomendation-img {
+    text-align: center;
+  }
+  .mention-section {
+    flex-wrap: wrap;
+  }
+  .mention {
+    width: 187px;
+    font-size: 11px;
+  }
+  .mention img {
+    width: 187px;
+    height: 187px;
+  }
+  @media (max-width: 320px)
+  {
+    .brand h1{
+      font-size: 15px;
+    }
+    nav{
+      padding: 0 1px;
+    }
+    .main-section{
+      padding: 5%;
+    }
+    .main-section h1{
+      bottom: 10px;
+      padding: 0;
+    }
+   .products{
+     flex-wrap: wrap;
+     justify-items: center;
+     height: auto;
+   }
+   .product{
+     position: static;
+     margin-left: 0;
+   }
+   .recomendation-section {
+     flex-wrap: wrap;
+   }
+   .recomendation{
+     display: inherit;
+   }
+   .mention-title{
+    font-size: large; 
+    margin-bottom: 20px;
+   }
+   .mention{
+     width: 250px;
+     text-align: center;
+     margin: 2%;
+   }
+   .mention img{
+     height: 100px;
+     width: 100px;
+     border-radius: 100%;
+   }
+   .mention p{
+     text-align: left;
+     margin: 5px 0;
+   }
+   .mention h2{
+     margin: 5px 0;
+   }
+  }
